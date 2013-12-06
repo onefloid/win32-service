@@ -7,7 +7,7 @@ package Win32::Service;
 # subsequently hacked by Gurusamy Sarathy <gsar@cpan.org>
 #
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 require Exporter;
 require DynaLoader;

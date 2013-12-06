@@ -1,5 +1,9 @@
 Revision history for Perl extension Win32::Service.
 
+0.07  Fri Dec 6 2013
+	- Fix required perl version 5.6 -> 5.006.
+	- Add Github repo link to META.yml
+
 0.06  Tue Apr 15 2008
 	- version 0.06 for separate upload to CPAN
 	- updated email addresses
