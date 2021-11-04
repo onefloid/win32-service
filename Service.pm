@@ -32,7 +32,14 @@ Win32::Service - Manage system services in Perl
 
 =head1 SYNOPSIS
 
-	use Win32::Service;
+	use Win32::Service qw/StartService StopService GetStatus/;
+	
+	my $isStarting = StartService('localhost', $service_name);
+	
+	my $return_href = {};
+	GetStatus('', $service_name, $return_href);
+	
+	my $isStopping = StopService('localhost', $service_name);
 
 =head1 DESCRIPTION
 
